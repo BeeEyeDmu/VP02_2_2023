@@ -1,0 +1,16 @@
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\bin\Debug\010_MatchingGame.exe.config
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\bin\Debug\010_MatchingGame.exe
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\bin\Debug\010_MatchingGame.pdb
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\010_MatchingGame.csproj.AssemblyReference.cache
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\010_MatchingGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\MainWindow.g.cs
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\App.g.cs
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\010_MatchingGame_MarkupCompile.cache
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\010_MatchingGame_MarkupCompile.lref
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\MainWindow.baml
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\010_MatchingGame.g.resources
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\_010_MatchingGame.Properties.Resources.resources
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\010_MatchingGame.csproj.GenerateResource.cache
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\010_MatchingGame.csproj.CoreCompileInputs.cache
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\010_MatchingGame.exe
+C:\Users\807PC02\source\repos\VP02_2\010_MatchingGame\obj\Debug\010_MatchingGame.pdb
