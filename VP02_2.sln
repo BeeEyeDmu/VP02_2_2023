@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_DockPanel", "008_DockPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_UniformGrid", "009_UniformGrid\009_UniformGrid.csproj", "{D11A4BC6-2FF7-4347-BB91-750A4E470F60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_MatchingGame", "010_MatchingGame\010_MatchingGame.csproj", "{20986E51-753E-4C4E-AD53-626C17D3AF22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D11A4BC6-2FF7-4347-BB91-750A4E470F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D11A4BC6-2FF7-4347-BB91-750A4E470F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D11A4BC6-2FF7-4347-BB91-750A4E470F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20986E51-753E-4C4E-AD53-626C17D3AF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20986E51-753E-4C4E-AD53-626C17D3AF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20986E51-753E-4C4E-AD53-626C17D3AF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20986E51-753E-4C4E-AD53-626C17D3AF22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
