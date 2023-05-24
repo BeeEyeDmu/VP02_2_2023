@@ -79,16 +79,16 @@
                       HorizontalAlignment="Center">
             <Button x:Name="btnInsert"  Width="100" Content="Insert" Click="btnInsert_Click"/>
             <TextBlock Width="20"/>
-            <Button x:Name="btnUpdate" Width="100" Content="Update"/>
+            <Button x:Name="btnUpdate" Width="100" Content="Update" Click="btnUpdate_Click"/>
           </StackPanel>
           <StackPanel Orientation="Horizontal" Margin="5"
                       HorizontalAlignment="Center">
-            <Button x:Name="btnDelete"  Width="100" Content="Delete"/>
+            <Button x:Name="btnDelete"  Width="100" Content="Delete" Click="btnDelete_Click"/>
             <TextBlock Width="20"/>
-            <Button x:Name="btnLoadData"  Width="100" Content="Load Data"/>
+            <Button x:Name="btnLoadData"  Width="100" Content="Load Data" Click="btnLoadData_Click"/>
           </StackPanel>
         </StackPanel>
-        <DataGrid x:Name="dataGrid" Width="540" Margin="5"/>
+        <DataGrid x:Name="dataGrid" Width="540" Margin="5" SelectionChanged="dataGrid_SelectionChanged"/>
       </StackPanel>
     </StackPanel>
   </Grid>
