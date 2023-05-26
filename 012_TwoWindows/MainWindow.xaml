@@ -1,0 +1,16 @@
+﻿<Window x:Class="_012_TwoWindows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_012_TwoWindows"
+        mc:Ignorable="d"
+        Title="Two Windows" Height="250" Width="400">
+  <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"
+              Orientation="Horizontal">
+    <Button x:Name="btnShow" Margin="0 0 30 0 " Height="40" Width="120" 
+            Content="Show()-Modaless" Click="btnShow_Click"/>
+    <Button x:Name="btnShowDialog" Height="40" Width="120" 
+            Content="ShowDialog()-Modal" Click="btnShowDialog_Click"/>
+  </StackPanel>
+</Window>

@@ -1,0 +1,30 @@
+﻿<Window x:Class="_014_SnakeBite.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_014_SnakeBite"
+        mc:Ignorable="d"
+        Title="SnakeBite WPF" Height="400" Width="525">
+  <Grid>
+    <Grid.Background>
+      <ImageBrush ImageSource="Images/tulip.jpg" Stretch="Fill"/>
+    </Grid.Background>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <TextBlock Grid.Row="0" Text="How To Play!" Margin="20 30 0 0 " />
+    <TextBlock Grid.Row="1" Text="Eat 25 Eggs using Arrow Keys" Margin="20 5 0 0" />
+    <TextBlock Grid.Row="2" Text="Press ESC to pause while playing" Margin="20 5 0 0"/>
+    <StackPanel Grid.Row="3" Orientation="Horizontal" 
+                HorizontalAlignment="Center" VerticalAlignment="Center">
+      <Button x:Name="btnPlay" FontSize="18" FontWeight="Bold" Margin="0 30 50 0"
+              Content="Play" Width="100" Height="50" Click="btnPlay_Click"/>
+      <Button x:Name="btnQuit" FontSize="18" FontWeight="Bold" Margin="0 30 0 0"
+              Content="Quit" Width="100" Height="50" Click="btnQuit_Click"/>
+    </StackPanel>
+  </Grid>
+</Window>

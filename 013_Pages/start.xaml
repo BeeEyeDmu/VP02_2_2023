@@ -1,0 +1,22 @@
+﻿<Page x:Class="_013_Pages.start"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_013_Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="500"
+      Title="start">
+
+  <Grid>
+    <StackPanel Orientation="Horizontal" 
+                HorizontalAlignment="Center">
+      <Button x:Name="btnInfo" Width="80" Height="50" Margin="0 0 30 0"
+              Content="Information" Click="btnInfo_Click"/>
+      <Button x:Name="btnLogin" Width="80" Height="50" Margin="0 0 30 0"
+              Content="Login" Click="btnLogin_Click"/>
+      <Button x:Name="btnSignUp" Width="80" Height="50" 
+              Content="SignUp" Click="btnSignUp_Click"/>
+    </StackPanel>
+  </Grid>
+</Page>
