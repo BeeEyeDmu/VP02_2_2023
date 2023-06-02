@@ -18,7 +18,7 @@ namespace _014_SnakeBite
     private Ellipse[] snakes = new Ellipse[30];
     private Ellipse egg;
     private Random r = new Random();
-    private int size = 10;          // 알과 뱀의 크기
+    private int size = 15;          // 알과 뱀의 크기
     private int visibleCount = 5;
 
     private string move = "";   // 움직이는 방향
@@ -28,15 +28,26 @@ namespace _014_SnakeBite
 
     private bool startFlag = false;
     SoundPlayer myPlayer;
+    MediaPlayer bgm;
 
     public Game() // 생성자
     {
       InitializeComponent();
       InitEgg();
       InitSnakes();
+      InitSound();
 
       timer.Interval = new TimeSpan(0, 0, 0, 0, 100); // 0.1초마다
       timer.Tick += Timer_Tick;
+    }
+
+    private void InitSound()
+    {
+      myPlayer = new SoundPlayer();
+      myPlayer.SoundLocation = "../../Sounds/Notify.wav";
+
+      bgm = new MediaPlayer();
+      bgm.Open(new Uri("../../Sounds/stranger.mp3", UriKind.Relative));
     }
 
     private void Timer_Tick(object sender, EventArgs e)
@@ -81,6 +92,7 @@ namespace _014_SnakeBite
 
       if(pS.X == pE.X && pS.Y == pE.Y)
       {
+        myPlayer.Play();
         egg.Visibility = Visibility.Hidden;
         visibleCount++;
         snakes[visibleCount-1].Visibility = Visibility.Visible; // 꼬리 하나 늘림
@@ -88,6 +100,7 @@ namespace _014_SnakeBite
 
         if(visibleCount == 30)  // 게임종료
         {
+          bgm.Stop();
           timer.Stop();
           sw.Stop();
           DrawSnakes();
@@ -169,6 +182,7 @@ namespace _014_SnakeBite
     {
       timer.Start();
       sw.Start();
+      bgm.Play();
 
       if (e.Key == Key.Left)
         move = "L";
@@ -181,8 +195,8 @@ namespace _014_SnakeBite
       else if (e.Key == Key.Escape)
       {
         move = "";
-        timer.Stop();
-        sw.Stop();
+        timer.Stop();        
+        bgm.Pause();
       }
     }
   }

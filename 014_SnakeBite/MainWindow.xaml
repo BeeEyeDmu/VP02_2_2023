@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_014_SnakeBite"
         mc:Ignorable="d"
-        Title="SnakeBite WPF" Height="400" Width="525">
+        Title="SnakeBite WPF" 
+        Height="400" Width="525"
+        Left="0" Top="0">
   <Grid>
     <Grid.Background>
       <ImageBrush ImageSource="Images/tulip.jpg" Stretch="Fill"/>
