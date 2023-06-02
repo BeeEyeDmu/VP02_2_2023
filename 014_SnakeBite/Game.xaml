@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_014_SnakeBite"
         mc:Ignorable="d"
-        Title="Game" Height="340" Width="420">
+        Title="Game" Height="340" Width="420" KeyDown="Window_KeyDown">
   <Canvas x:Name="field" Width="420" Height="320" Background="LightBlue">
     <TextBlock x:Name="txtScore" Margin="10" Canvas.Left="200" Text="Score = 0"/>
     <TextBlock x:Name="txtTimer" Margin="10" Canvas.Left="280" Text="Time = 0"/>
